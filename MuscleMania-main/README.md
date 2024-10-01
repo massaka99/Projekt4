@@ -1,4 +1,3 @@
-For at køre projektet neeemt, så åben docker desktop og
+For at køre projektet:
 
-skriv *docker-compose up* imens du er i mappen med docker-compose.yml filen. 
-
+skriv *docker-compose up* imens du er samme dir med docker-compose.yml filen. 
