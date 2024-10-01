@@ -1,0 +1,107 @@
+.header {
+    display: flex;
+    align-items: center;
+    padding: 40px 20px; /* Increased padding for more space */
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    height: 20px;
+
+}
+
+.logo-container {
+    display: flex;
+}
+
+.logo {
+    height: 100px; 
+    width: 100px; 
+    border-radius: 50%;
+    margin-right: 250px; 
+    margin-top: 30px;
+    object-fit: cover; 
+}
+
+.Menu {
+    /* position: absolute;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 20px;
+    background-size: cover;
+    margin-inline: 10%;  */
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Menu a {
+    color:#FFA500;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    border-radius: 5px; 
+    font-weight: bold; 
+
+}
+
+.Menu a:hover {
+    background-color: rgb(203, 203, 203);
+    transition: 0.5s;
+  }
+
+.operation-times {
+    position: absolute;
+    top: 5%;
+    right: -250px; /* Adjust the distance from the right side */
+    transform: translateY(-50%);
+}
+
+.content {
+    padding: -10px 20px; 
+    text-align: center; 
+}
+
+.content h1 {
+    font-size: 2em; 
+    color: #FFA500; 
+}
+
+.content p {
+    font-size: 1em; 
+    color: #FFA500;
+    margin-bottom: 10px;
+}
+
+.content button {
+    margin: 10px;
+    margin: 10px;
+    background-color: #FFA500;
+    border-radius: 50px; 
+    padding: 10px 20px; 
+    font-size: 1em; 
+}
+
+.content button:hover {
+    background-color: rgb(203, 203, 203);
+    transition: 0.5s;
+}
+
+.get-started {
+    background-color: #FFA500; 
+}
+
+.App {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 100vh;
+    object-fit: cover;
+    background-size: 100%;
+    background-position: top;
+    background-repeat: no-repeat; 
+}

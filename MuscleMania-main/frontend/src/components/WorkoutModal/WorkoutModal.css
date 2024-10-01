@@ -1,0 +1,102 @@
+.workout-modal-backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+  overflow-y: auto;
+}
+
+.workout-modal {
+  background: linear-gradient(145deg, #FFA07A, #8B4513);
+  color: white;
+  padding: 2rem;
+  border-radius: 15px;
+  box-shadow: 0 8px 10px rgba(0, 0, 0, 0.3);
+  width: 90%;
+  max-width: 600px;
+  text-align: center;
+  max-height: 80vh;
+  overflow-y: auto;
+}
+
+.workout-modal h2 {
+  margin-bottom: 1.5rem;
+  font-size: 2rem;
+}
+
+.workout-modal ul {
+  list-style: none;
+  padding: 0;
+  text-align: left;
+}
+
+.workout-modal ul li {
+  background: rgba(255, 255, 255, 0.2);
+  margin-bottom: 0.5rem;
+  padding: 0.75rem;
+  border-radius: 8px;
+  border-left: 4px solid white;
+}
+
+.workout-modal button {
+  margin-top: 1.5rem;
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 20px;
+  background-color: #ffffff;
+  color: #8B4513;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+.workout-modal button:hover {
+  background-color: #FFA07A;
+  color: white;
+}
+
+.workout-modal button:active {
+  transform: scale(0.9);
+  background-color: #FF6347;
+}
+
+.weekly-schedule {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 1rem;
+  padding: 1rem;
+}
+
+.daily-plan h3 {
+  margin-bottom: 0.5rem;
+  text-align: center;
+  color: white;
+}
+
+.daily-plan ul {
+  list-style: none;
+  padding: 0;
+}
+
+.daily-plan ul li {
+  background: rgba(255, 255, 255, 0.2);
+  margin-bottom: 0.5rem;
+  padding: 0.75rem;
+  border-radius: 8px;
+  border-left: 4px solid white;
+}
+
+.save-message {
+  color: #32CD32;
+  font-size: 1rem;
+  margin-top: 20px;
+  padding: 10px;
+  background: rgba(255, 255, 255, 0.8);
+  border-radius: 5px;
+}

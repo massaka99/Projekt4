@@ -1,0 +1,60 @@
+.video-modal-backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 2000;
+  overflow-y: auto;
+}
+
+.video-modal-content {
+  background: #ffdab9;
+  padding: 1rem;
+  border-radius: 10px;
+  box-shadow: 0 8px 16px rgba(139, 69, 19, 0.2);
+  text-align: center;
+  max-height: 80vh;
+  overflow-y: auto;
+  width: 95%;
+  max-width: 800px;
+}
+
+.video-modal-content iframe {
+  width: 100%;
+  height: 315px;
+  margin-bottom: 1rem;
+}
+
+.video-modal-content h4 {
+  margin-top: 1rem;
+  color: #8b4513;
+}
+
+.close-button {
+  display: block;
+  margin: 1rem auto;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 5px;
+  background-color: #8b4513;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.close-button:hover {
+  background-color: #a0522d;
+}
+
+.video-search-input {
+  padding: 10px;
+  margin-bottom: 20px;
+  width: 90%;
+  border-radius: 8px;
+  border: 1px solid #8b4513;
+}

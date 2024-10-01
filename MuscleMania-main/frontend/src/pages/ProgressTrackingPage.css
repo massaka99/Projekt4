@@ -1,0 +1,52 @@
+.progress-container {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  align-items: center;
+  padding-top: 100px;  /* Adjust as necessary */
+  font-family: Arial, sans-serif;
+  box-sizing: border-box;
+  height: 100vh;
+  overflow: scroll;
+}
+
+.stats-and-session-wrapper {
+  display: flex;
+  justify-content: space-between;;
+}
+
+.stats, .ny-session {
+  flex: 1; 
+  margin: 0 10px;
+}
+
+.training-data {
+  display: flex;
+}
+
+h1, h2, p {
+  margin: 0.5rem;
+}
+
+.stats, .plan, .training-days, .ny-session {
+  width: 90%;
+  background-color: #dddfddaa;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 8px;
+}
+
+button {
+  margin: 10px;
+  padding: 10px 20px;
+  background-color: #007bff;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #5cafa0;
+}

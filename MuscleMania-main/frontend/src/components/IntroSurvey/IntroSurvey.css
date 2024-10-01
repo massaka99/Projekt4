@@ -1,0 +1,85 @@
+/* IntroSurvey.css */
+.survey-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    background: linear-gradient(90deg, #fd7412, #f9a476);
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 0.5rem;
+    margin: auto;
+    max-width: 600px;
+}
+
+.survey-form {
+    display: flex;
+    flex-direction: column;    
+    padding: 5px;
+    border-radius: 8px;
+}
+
+.form-group {
+    margin-bottom: 1rem;
+}
+
+.form-label {
+    color: #000000;
+    font-weight: bold;
+    display: block;
+    margin-bottom: 0.5rem;
+
+}
+
+.form-result {
+    font-weight: normal;
+    color: #000000;
+    font-size:1cap;
+    margin-top: 0%;
+}
+
+.form-control {
+    border-radius: 5px;
+    border: 1px solid #ced4da;
+    padding: 0.75rem 1rem;
+}
+
+.button-container {
+    display: flex;
+    padding-top: 1rem;
+    justify-content: center;
+    width: 100%; 
+}
+
+.survey-button {
+    color: rgb(255, 255, 255);
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;   
+    width: 310px;
+}
+
+.survey-button:hover {
+    background-color: #FFA07A;
+}
+
+
+@media (max-width: 768px) {
+    .survey-container {
+        padding: 1rem;
+        width: 90%;
+    }
+
+    .survey-form {
+        padding: 10px; /* Mindre padding på mobile enheder */
+    }
+}
+
+.title{
+    display: flex;
+    justify-content: center;    
+    width: 100%;
+    color: black;
+}

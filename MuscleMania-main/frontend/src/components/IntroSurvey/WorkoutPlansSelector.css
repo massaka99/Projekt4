@@ -1,0 +1,50 @@
+/* WorkoutPlansSelector.css */
+.workout-plan-selector {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(90deg, #f9a476, #fd7412);
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 1rem;
+    margin: auto;
+    max-width: 600px;
+    overflow-y: auto;
+    height: calc(98vh - 50px);
+}
+
+.workout-plan {
+    background: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 1rem;
+    margin: 0.5rem 0;
+    width: 100%;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.workout-plan:hover {
+    background-color: #f0f0f0;
+    transform: translateY(-2px);
+}
+
+.workout-plan h4 {
+    margin: 0;
+    color: #333;
+}
+
+@media (max-width: 768px) {
+    .workout-plan-selector {
+        padding: 0.5rem;
+        width: 90%;
+    }
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    color: black;
+}

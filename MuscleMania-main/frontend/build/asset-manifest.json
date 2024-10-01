@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/static/css/main.e7cb4e5c.css",
+    "main.js": "/static/js/main.81cd2323.js",
+    "static/media/Background.png": "/static/media/Background.75382a58246a3ba00e0c.png",
+    "static/media/squat.png": "/static/media/squat.daa3496a3ababd12301b.png",
+    "static/media/MuscleMania.png": "/static/media/MuscleMania.fac302bc2f150c47c471.png",
+    "index.html": "/index.html",
+    "main.e7cb4e5c.css.map": "/static/css/main.e7cb4e5c.css.map",
+    "main.81cd2323.js.map": "/static/js/main.81cd2323.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e7cb4e5c.css",
+    "static/js/main.81cd2323.js"
+  ]
+}

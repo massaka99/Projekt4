@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+/* Global Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background-color: #1a1a1a;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  overflow: hidden;
+}
+
+/* Homepage Styles */
+.homepage {
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  display: flex;  
+  flex-direction: column;  
+}
+
+.header-section {
+  background: url('../Images/Body.png') no-repeat center center/cover;
+  position: relative;
+  flex: 1;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding-left: 50px;
+  background-size: cover;
+  background-position: 100% -10%;
+}
+
+.header-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.header-content {
+  position: relative;
+  z-index: 2;
+  max-width: 600px;
+  padding: 20px;
+  background: rgba(0, 0, 0, 0.6);
+  border-radius: 10px;
+  text-align: center; /* Center align the content */
+}
+
+.home-header {
+  font-size: 3em;
+  font-weight: 600;
+  margin-bottom: 10px;
+  color: #FFA500;
+}
+
+.user-greeting {
+  font-size: 2em;
+  font-weight: 400;
+  margin-bottom: 20px;
+  color: #FFA500;
+}
+
+.header-content p {
+  font-size: 1.2em;
+  margin-bottom: 20px;
+  line-height: 1.5;
+  color: #FFA500;
+}
+
+.cta-button {
+  background-color: #FFA500;
+  color: white;
+  border: none;
+  padding: 15px 40px;
+  font-size: 1.2em;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.cta-button:hover {
+  background-color: #ffcc00;
+}
+
+/* Typing Animation */
+.typing-effect {
+  display: inline-block;
+  overflow: hidden;
+  white-space: nowrap;
+  border-right: 3px solid orange;
+  animation: typing 3.5s steps(40, end), blink-caret 0.75s step-end infinite;
+}
+
+.typing-effect.finished {
+  border-right: none; /* Remove the cursor */
+  animation: none; /* Stop the blinking animation */
+}
+
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: orange }
+}

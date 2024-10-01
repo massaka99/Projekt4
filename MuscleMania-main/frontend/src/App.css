@@ -1,0 +1,114 @@
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap');
+
+/* Global styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Body styles */
+body {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  height: auto;
+  background-image: linear-gradient(110deg, rgb(155, 57, 30), rgb(225, 174, 76), rgb(252, 242, 217) 67%);
+}
+
+/* Form containers */
+.login-form-container, .register-form-container, .forgot-password-container, .reset-password-container {
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  border: none;
+}
+
+/* Container styles */
+.login-container, .register-container, .forgot-password-container, .reset-password-container {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  height: auto;
+}
+ 
+/* Card styles */
+.login-card, .register-card, .forgot-password-card, .reset-password-card {
+  width: 400px;
+  height: auto;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.745);
+  border: none;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  top: 50%;
+  left: 85%;
+  transform: translate(-50%, -50%);
+  margin: 0%;
+}
+
+/* Button styles */
+.login-form-button, .register-form-button, .forgot-password-button, .reset-password-button {
+  background-color: blue;
+  border-color: blue;
+  color: white;
+  width: 100%;
+  margin: 0%;
+}
+
+/* Input and button styles */
+.ant-input, .ant-btn, input[type="text"],
+select {
+  width: 100%;
+  margin: 0%;
+  padding: 4px 11px;
+}
+
+/* Primary button styles */
+.ant-btn-primary {
+  background-color: blue;
+  border-color: blue;
+  margin: 0%;
+}
+
+/* Link button styles */
+.ant-btn-link {
+  color: blue;
+  margin: 0%;
+}
+
+/* MuscleMania logo styles */
+.MuscleMania {
+  width: 130px; 
+  height: auto;
+  align-content: center;
+}
+
+/* Header styles */
+.header1 {
+  color: rgb(255, 255, 255);
+  justify-content: space-between;
+  position: fixed;
+  width: 100%;
+  height: 80px;
+  text-align: start;
+  top:0;
+}
+
+/* Return button styles */
+.ReturnButton {
+  width: 100px;
+  height: 45px; 
+  background-color: blue;
+}
+
+/* Squat image styles */
+.squat {
+  position:fixed;
+  top: 50%;
+  bottom: -25%;
+  left: 40%;
+  transform: translate(-60%, -50%);
+  width: 500px;
+}
+

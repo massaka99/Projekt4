@@ -1,0 +1,16 @@
+/* main.css - Link this file in your HTML head section */
+/* Reset some defaults */
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%; /* or min-height: 100vh; to ensure full viewport height */
+    display: flex;
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+    font-family: sans-serif; /* Optional: Change the font */
+}
+
+#root {
+    width: 100%; /* Adjust this as necessary */
+}

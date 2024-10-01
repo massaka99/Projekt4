@@ -1,0 +1,19 @@
+{
+  "dependencies": {
+    "react-hook-form": "^7.51.4"
+  },
+  "jest": {
+    "setupFilesAfterEnv": [
+      "<rootDir>/src/setupTests.js"
+    ],
+    "testEnvironment": "jest-environment-jsdom"
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "^5.14.1",
+    "@testing-library/react": "^12.1.2",
+    "@testing-library/react-hooks": "^8.0.1",
+    "@testing-library/user-event": "^13.1.9",
+    "cross-env": "^7.0.3",
+    "react-test-renderer": "^17.0.2"
+  }
+}

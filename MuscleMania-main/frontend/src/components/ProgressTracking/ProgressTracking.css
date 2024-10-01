@@ -1,0 +1,33 @@
+.diagram-container {
+  width: 90vw;
+  justify-content: center;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(500px, 0px));
+  gap: 0px;
+  padding: 20px;
+  background-color:beige;
+  overflow-y:scroll;
+  margin: 10px 0;
+  border-radius: 8px;
+}
+
+.get-data-button, .submit-session-button {
+  margin: 0.5rem;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 5px;
+  background-color: #8B4513;
+  color: white;
+  cursor: pointer;
+  font-weight: bold; /* Making the text bold */
+  transition: background-color 0.2s ease; /* Smooth transition for hover effect */
+}
+
+.get-data-button:hover, .submit-session-button:hover {
+  background-color: #FFA07A; /* Darker shade on hover */
+}
+
+.get-data-button {
+  position: flex;
+  align-self: center;
+}

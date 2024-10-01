@@ -1,0 +1,93 @@
+.about-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1px;
+    font-family: Arial, sans-serif;
+    zoom: 50%;
+    height: auto;
+}
+
+.BackButton {
+    background-color: blue;
+    padding: 25px 50px;
+    font-size: 2em;
+    border-radius: 15px;
+    transition: background-color 0.3s ease;
+    margin-bottom: 25px;
+    align-self: start;
+    top: 4px;;
+    position: absolute;
+    width: 200px;
+    height: 5.5%;
+}
+
+.BackButton:hover {
+    background-color: #0ba6da;
+}
+
+.ReturnButton:hover {
+    background-color: #0ba6da;
+}
+
+.content-wrapper {
+    max-width: 1300px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.text-section {
+    flex: 1;
+    margin: 0 10px;
+    text-align: center;
+    color: black;
+}
+
+.musclemania-logo {
+    width: 300px;
+    height: auto;
+    margin-bottom: 40px;
+}
+
+.text-container {
+    max-width: 700px;
+    text-align: left;
+}
+
+.text-container h2 {
+    font-size: 2.5em;
+    color: black;
+    margin-bottom: 10px;
+}
+
+.text-container p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+    line-height: 1.6;
+    color: black;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+}
+
+.image-container.left {
+    justify-content: flex-start;
+}
+
+.image-container.right {
+    justify-content: flex-end;
+}
+
+.image-container img {
+    width: 200%;
+    height: auto;
+    border-radius: 10px;
+    margin: 0 -300px;
+}

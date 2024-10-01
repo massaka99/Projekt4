@@ -1,0 +1,36 @@
+services:
+  mongo:
+    image: mongo:latest
+    ports: 
+      - "27018:27017"
+
+  backend:
+    image: dogegf/prj4:backend
+    ports:
+      - "4999:4999"
+    depends_on:
+      - mongo
+    environment:
+      MONGO_URI: mongodb://mongo:27017/Muscle-Mania
+
+  frontend:
+    image: dogegf/prj4:frontend
+    ports:
+      - "3000:3000"
+    depends_on:
+      - backend
+
+  ai-backend:
+    image: dogegf/prj4:ai-backend
+    ports:
+      - "6969:6969"
+
+  ai-frontend:
+    image: dogegf/prj4:ai-frontend
+    ports:
+      - "3001:3001"
+    depends_on:
+      - ai-backend
+
+volumes:
+  mongo-data:

@@ -1,0 +1,86 @@
+# Node modules
+node_modules/
+
+# Logs
+logs
+*.log
+
+# Runtime Data
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage directory used by tools like Istanbul
+coverage/
+
+# Dependency directories
+jspm_packages/
+
+# Typescript v1 declaration files
+typings/
+
+# dotenv environment variables file
+.env
+
+# Ignore the build directory
+dist/
+
+# MacOS metadata files
+.DS_Store
+
+# Temporary files created by your text editor
+*.tmp
+*.swp
+*.swo
+
+# Compiled binary addons
+build/Release
+
+# Temporary files
+*.temp
+*.sw[a-z]
+*.bak
+*.BAK
+
+# Coverage reports
+lcov.info
+.coverage/
+
+# Parcel-bundler cache
+.cache
+
+# IDE settings
+.idea/
+.vscode/
+
+# nuxt build output
+.nuxt
+
+# Next.js build output
+.next
+
+# Npm debug logs
+npm-debug.log*
+
+# Yarn integrity file
+.yarn-integrity
+
+# grunt intermediate storage
+.grunt
+
+# local env files
+.env.local
+.env.*.local
+
+# vim swap files
+*.sw[a-p]
+*.un~
+Session.vim
+.netrwhist
+*-mini
+
+# sass cache
+.sass-cache
+
+# Optional REPL history
+.node_repl_history!/frontend/coverage/
