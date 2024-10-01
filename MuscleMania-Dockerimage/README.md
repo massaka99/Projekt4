@@ -9,8 +9,7 @@ så hentes der images automatisk og docker kører succesfuldt<br>
 ---
 1. åbn terminal
 
-2. skriv "**docker login**" i terminalen
-skriv dit brugernavn og kodeord
+2. skriv "**docker login**" i terminalen og følg instrukserne
 
 3. skriv følgende en efter en <br>
 "**docker pull dogegf/prj4:backend**"<br>
